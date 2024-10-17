@@ -1,0 +1,370 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&family=Dancing+Script&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../images/background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+/* Container của trang mời cưới */
+.invitation-container {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Phong cách cho phần header */
+header h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Phần tiêu đề */
+.header-invite {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Phần tên cặp đôi */
+.couple-names {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #6b4b9e;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* Ảnh đầu thiệp */
+.header-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-image img {
+  max-width: 300px;
+  height: auto;
+}
+
+/* Phong cách cho text đặc biệt */
+.highlight-text {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.4rem;
+  color: #5b3b8f;
+  margin: 10px auto;
+  width: 60%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Phong cách cho text thông thường */
+.regular-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px auto;
+  width: 60%;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Phần ảnh của cặp đôi */
+.couple-photo img {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Bố cục cho phần nhà gái và nhà trai */
+.bride-groom {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Căn chỉnh các phần tử theo chiều dọc */
+  margin: 40px 0;
+}
+
+/* Căn chỉnh phần nhà gái */
+.person.bride {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; /* Căn chỉnh hình ảnh và nội dung lệch trái */
+  text-align: left; /* Đảm bảo nội dung văn bản cũng căn trái */
+  width: 45%;
+  padding: 20px;
+  min-height: 550px;
+}
+
+/* Căn chỉnh phần nhà trai */
+.person.groom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end; /* Căn chỉnh hình ảnh và nội dung lệch phải */
+  text-align: right; /* Đảm bảo nội dung văn bản cũng căn phải */
+  width: 45%;
+  padding: 20px;
+  min-height: 550px;
+}
+
+/* Cấu hình cho hình ảnh */
+.person img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+
+.person h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.8rem;
+  color: #ff69b4;
+  margin: 10px 0;
+}
+
+.person p {
+  font-size: 1rem;
+}
+
+.map-button {
+  align-self: center; /* Căn giữa nút theo chiều ngang */
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.map-button:hover {
+  background-color: #0056b3;
+}
+
+/* Phần Album Ảnh Cưới */
+.photo-album {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.photo-album h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.photo-album p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #666;
+  width: 60%;
+  margin: auto;
+}
+
+.album-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.album-photo {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.album-photo:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Căn chỉnh chữ cái lớn */
+.initial {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #ff69b4;
+  float: left;
+  margin-right: 10px;
+}
+
+/* Căn chỉnh text */
+.story-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.story-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.groom-thoughts,
+.bride-thoughts {
+  width: 45%;
+  text-align: center;
+}
+
+.groom-thoughts img,
+.bride-thoughts img {
+  width: 160px;
+  height: 190px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.groom-thoughts p,
+.bride-thoughts p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Phần đếm ngược */
+.countdown {
+  margin: 40px 0;
+}
+
+#countdown-timer {
+  font-size: 1.5rem;
+  color: #e74c3c;
+}
+
+/* Phần QR code */
+.qr-codes {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.qr-codes h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.qr-codes p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.qr-item {
+  width: 30%;
+  text-align: center;
+}
+
+.qr-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qr-item h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Phần ảnh bông hoa trang trí */
+.flower-image {
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: fadeInFlower 2s ease-in-out forwards;
+}
+
+.flower-img {
+  max-width: 300px;
+  height: auto;
+}
+
+.flower-image.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Phần tiêu đề "Our Story" */
+.our-story h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #6b4b9e;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Nhạc button */
+.music-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ff4081;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.music-button:hover {
+  background-color: #e73370;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bride-groom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .person {
+    width: 100%; /* Chiếm toàn bộ chiều rộng trên màn hình nhỏ */
+    margin-bottom: 20px;
+  }
+
+  .map-button {
+    width: 100%; /* Đảm bảo nút căn đều trên thiết bị di động */
+  }
+
+  .album-photo {
+    width: 100%;
+  }
+}

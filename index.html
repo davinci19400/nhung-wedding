@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="đám cưới, wedding, lễ cưới, Dũng & Nhung, mời cưới, đám cưới 2024">
+    <title>Wedding Events - Dũng & Nhung</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="invitation-container container">
+      <!-- Thêm hình ảnh vào đầu trang với fade-in khi cuộn -->
+      <section class="header-image">
+        <img
+          src="images/flower-top.png"
+          alt="Hình hoa trang trí"
+          class="img-fluid flower-img"
+        />
+      </section>
+
+      <!-- Phần sự kiện chính của lễ cưới -->
+      <header>
+        <h1 class="animate__animated animate__fadeInDown">Wedding Events</h1>
+        <p class="highlight-text animate__animated animate__fadeInLeft">
+          Tấm thiệp mời trên bàn, thời gian địa điểm rõ ràng...
+        </p>
+        <p class="regular-text animate__animated animate__fadeInRight">
+          Đám cưới không chỉ đơn giản là buổi lễ, nó là lời hứa giữa hai người
+          yêu thương nhau rằng họ sẽ cùng nhau đi qua mọi thăng trầm của cuộc
+          sống.
+        </p>
+      </header>
+
+      <!-- Phần thông tin nhà gái và nhà trai -->
+      <section class="bride-groom row">
+        <!-- Nhà gái -->
+        <div class="person col-md-6">
+          <img
+            src="images/bride.jpg"
+            alt="Nhà gái"
+            class="img-fluid animate__animated animate__zoomIn"
+            loading="lazy"
+          />
+          <h2>Nhà gái</h2>
+          <p><strong>Lễ cưới nhà gái:</strong> 26 Tháng 10, 2024</p>
+          <p><strong>Tiệc cưới nhà gái:</strong> 15:00 </p>
+          <p></strong>(24 tháng 09 âm lịch)</p>
+          <p><strong>Lễ vu quy:</strong> 8:00,</strong> 27 Tháng 10, 2024</p>
+          <p><strong>Địa điểm:</strong> Trường TH Tam Hiệp - Yên Thế - Bắc Giang</p>
+          <button
+          class="map-button btn btn-primary animate__animated animate__pulse animate__infinite"
+          id="bride-map"
+          >
+          Xem bản đồ nhà gái
+        </button>
+      </div>
+      
+      <!-- Nhà trai -->
+      <div class="person col-md-6">
+        <img
+        src="images/groom.jpg"
+        alt="Nhà trai"
+        class="img-fluid animate__animated animate__zoomIn"
+        loading="lazy"
+        />
+        <h2>Nhà trai</h2>
+        <p><strong>Lễ cưới nhà trai:</strong> 26 Tháng 10, 2024</p>
+        <p><strong>Tiệc cưới nhà trai:</strong> 16:00 </p>
+        <p></strong>(24 tháng 09 âm lịch)</p>
+          <p><strong>Lễ tân hôn: </strong>11:00,</strong> 27 Tháng 10, 2024</p>
+          <p><strong>Địa điểm:</strong> Khu 3 - Phùng Nguyên - Lâm Thao - Phú Thọ </p>
+          <button
+            class="map-button btn btn-primary animate__animated animate__pulse animate__infinite"
+            id="groom-map"
+          >
+            Xem bản đồ nhà trai
+          </button>
+        </div>
+      </section>
+
+      <!-- Ảnh của cặp đôi -->
+      <section class="couple-photo">
+        <header>
+          <h1 class="header-invite">
+            Chúng tôi hân hạnh mời bạn đến dự lễ cưới
+          </h1>
+          <h2 class="couple-names">Tiến Dũng & Hồng Nhung</h2>
+        </header>
+        <img
+          src="images/couple-photo.jpg"
+          alt="Cặp đôi Dũng & Nhung"
+          class="img-fluid animate__animated animate__fadeInUp"
+          loading="lazy"
+        />
+      </section>
+
+      <!-- Phần cảm nghĩ của cô dâu và chú rể -->
+      <section class="our-story">
+        <h2>Our Story</h2>
+        <p>Chúng mình đây</p>
+        <div class="story-content row">
+          <!-- Cảm nghĩ của chú rể -->
+          <div class="groom-thoughts col-md-6">
+            <img
+              src="images/groom.jpg"
+              alt="Chú rể"
+              class="img-fluid"
+              loading="lazy"
+            />
+            <p class="story-text">
+              <span class="initial">A</span>nh thật sự thấy mình may mắn khi gặp được em - 
+              một người con gái luôn mang trong mình một năng lượng tích cực, hồn nhiên  vô tư. 
+              Một người con gái ấm áp, luôn quan tâm lo lắng đến mọi người. 
+              Cảm ơn em đã đến, luôn ở bên cạnh anh, động viên chia sẻ cùng anh qua những khó khăn. Yêu Em.
+            </p>
+          </div>
+          <!-- Cảm nghĩ của cô dâu -->
+          <div class="bride-thoughts col-md-6">
+            <img
+              src="images/bride.jpg"
+              alt="Cô dâu"
+              class="img-fluid"
+              loading="lazy"
+            />
+            <p class="story-text">
+              <span class="initial">L</span>ần đầu em gặp anh năm 2018, 
+              ấn tượng bởi ngoại hình cao ráo, ít nói và cũng đẹp trai ưa nhìn. 
+              Quan trọng là anh hát hay và đang là HLV của đội bóng em. 
+              Cứ như vậy 2 con người cùng chung đam mê sở thích cũng tiến tới tìm hiểu nhau. Yêu Anh.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Đếm ngược đến ngày cưới -->
+      <section class="countdown">
+        <h3>Đếm ngược đến ngày cưới:</h3>
+        <div id="countdown-timer" class="animate__animated animate__fadeIn">
+          <span id="days">00</span> ngày <span id="hours">00</span> giờ
+          <span id="minutes">00</span> phút <span id="seconds">00</span> giây
+        </div>
+      </section>
+
+      <section class="photo-album">
+        <!-- Ảnh bông hoa trang trí -->
+        <div class="flower-image">
+          <img
+            src="images/flower-top.png"
+            alt="Bông hoa trang trí"
+            class="flower-img"
+            loading="lazy"
+          />
+        </div>
+
+        <h2>Album ảnh cưới</h2>
+        <p>
+          Album cưới không chỉ là bộ sưu tập hình ảnh, mà nó còn là chiếc cầu
+          nối dẫn chúng ta trở về với những khoảnh khắc tình yêu đẹp đẽ và ngọt
+          ngào nhất.
+        </p>
+        <!-- Phần ảnh -->
+        <div class="album-container">
+          <img
+            src="images/photo1.jpg"
+            alt="Ảnh cưới 1"
+            class="album-photo"
+            loading="lazy"
+          />
+          <img
+            src="images/photo3.jpg"
+            alt="Ảnh cưới 2"
+            class="album-photo"
+            loading="lazy"
+          />
+          <img
+            src="images/photo2.jpg"
+            alt="Ảnh cưới 3"
+            class="album-photo"
+            loading="lazy"
+          />
+          <!-- Thêm ảnh mới vào đây -->
+          <img
+            src="images/photo4.jpg"
+            alt="Ảnh cưới 4"
+            class="album-photo"
+            loading="lazy"
+          />
+          <img
+            src="images/photo5.jpg"
+            alt="Ảnh cưới 5"
+            class="album-photo"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="qr-codes">
+        <h2>Chúc mừng trăm năm hạnh phúc</h2>
+        <p>Bạn có thể dùng mã QR dưới đây để gửi quà mừng cho cô dâu chú rể</p>
+
+        <div class="qr-container">
+          <!-- QR Code Nhà gái -->
+          <div class="qr-item">
+            <h3>Nhà trai</h3>
+            <img
+              src="images/qr-groom.jpg"
+              alt="QR code nhà gái"
+              class="qr-photo"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- QR Code Nhà trai -->
+          <div class="qr-item">
+            <h3>Nhà gái</h3>
+            <img
+              src="images/qr-bride.jpg"
+              alt="QR code nhà trai"
+              class="qr-photo"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Chân trang -->
+      <footer>
+        <p>Rất mong sự hiện diện của bạn!</p>
+        <!-- Nhạc nền -->
+        <audio id="background-music" loop>
+          <source src="images/x.mp3" type="audio/mpeg" />
+          Trình duyệt của bạn không hỗ trợ âm thanh.
+        </audio>
+        
+        <!-- Nút bật/tắt nhạc -->
+        <button id="toggle-music" class="music-button">🔈</button>
+    </div>
+
+    <!-- Bootstrap JS và jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Liên kết tệp JavaScript -->
+    <script src="js/script.js"></script>    
+
+  </body>
+</html>
